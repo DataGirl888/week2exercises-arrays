@@ -20,16 +20,17 @@ public class Ex08RemoveDuplicates {
 
         Arrays.sort(givenArray);
         int[] uniqueArray = {0};
-        int element = givenArray[0];
         StringBuilder uniqueNumbers = new StringBuilder("Array without duplicate values: ");
 
-        for (int i = 0; i < givenArray.length - 1; i++) {
+        for (int i = 0; i < givenArray.length-1; i++) {   //comparing each element to the next in sorted array
             if (givenArray[i] != givenArray[i + 1]) {
-                uniqueArray = Arrays.copyOf(uniqueArray, i + 1);
+                uniqueArray = Arrays.copyOf(uniqueArray, i + 1);  // saving to output string only if unique
                 uniqueArray[i] = givenArray[i];
                 uniqueNumbers.append(uniqueArray[i]).append(" ");
-            } else {
-                i++;
+            }if (i == givenArray.length-2){     //checking last element comparison skipped by for loop condition
+                if(givenArray[i] !=givenArray[givenArray.length-1]){
+                    uniqueNumbers.append(uniqueArray[i]);
+                }
             }
         }
         System.out.println(allNumbers.append("\n").append(uniqueNumbers));
