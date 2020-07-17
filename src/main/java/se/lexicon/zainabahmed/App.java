@@ -35,10 +35,11 @@ public class App
             System.out.println( "8. Remove duplicates ");
             Ex08RemoveDuplicates.removeDuplicates();
         System.out.println( "*=========*" );
-//        System.out.println( "9. ");
-//        System.out.println( "*=========*" );
-//        System.out.println( "10. ");
-//        System.out.println( "*=========*" );
+           System.out.println( "9. Add to array");
+           Ex09AddExpandArray.addToArray(14);
+        System.out.println( "*=========*" );
+        System.out.println( "10. Multiplication Table");
+        System.out.println( "*=========*" );
 //        System.out.println( "11. ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "12. ");
