@@ -1,7 +1,11 @@
 package se.lexicon.zainabahmed;
 
 /**
- * Arrays
+ * Array EX01
+ * 1. Write a program which will store elements in an array of type ‘int’ and
+ * print it out.
+ * Expected output: 11 23 39 etc.
+ *
  */
 public class App 
 {
@@ -32,8 +36,7 @@ public class App
             System.out.println( "7. Odd numbers");
             Ex07OddNumbersArray.printOddNumbers();
         System.out.println( "*=========*" );
-            System.out.println( "8. Remove duplicates ");
-            Ex08RemoveDuplicates.removeDuplicates();
+//        System.out.println( "8. ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "9. ");
 //        System.out.println( "*=========*" );
