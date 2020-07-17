@@ -30,8 +30,9 @@ public class App
 //            Ex05TwoDimensionalArray.populateCities();
 //            Ex05TwoDimensionalArray.numberGrid();
         System.out.println( "*=========*" );
-//        System.out.println( "3. ");
-//        System.out.println( "*=========*" );
+            System.out.println( "6. Average number ");
+            Ex06NextValueAverageNumbers.averageNumber();
+        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
