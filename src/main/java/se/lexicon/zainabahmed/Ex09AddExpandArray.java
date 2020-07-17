@@ -13,8 +13,8 @@ public class Ex09AddExpandArray {
     public static void addToArray(int element){
 
         int[] expandedArray = Arrays.copyOf(originalArray,originalArray.length+1);
-        expandedArray[expandedArray.length-1] = element;
-        StringBuilder addedArray = new StringBuilder("Expanded array : ");
+        expandedArray[expandedArray.length-1] = element;  //saving expanded array
+        StringBuilder addedArray = new StringBuilder("Expanded array : ");  //building output string from array
 
         for (int number : expandedArray){
             addedArray.append(number).append(" ");

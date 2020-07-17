@@ -38,7 +38,8 @@ public class App
            System.out.println( "9. Add to array");
            Ex09AddExpandArray.addToArray(14);
         System.out.println( "*=========*" );
-        System.out.println( "10. Multiplication Table");
+            System.out.println( "10. Multiplication Table");
+            Ex10MultiplicationTablesMultiDimensionalArray.multiplyNumbers();
         System.out.println( "*=========*" );
 //        System.out.println( "11. ");
 //        System.out.println( "*=========*" );
