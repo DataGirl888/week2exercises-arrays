@@ -1,4 +1,5 @@
 package se.lexicon.zainabahmed;
+import java.lang.*;
 
 /**
  * Array EX01
@@ -8,5 +9,12 @@ package se.lexicon.zainabahmed;
  */
 public class Ex01CreateIntArray {
     // INSTANCE VARIABLES
-    int[] myNumberArray;
+    static int[] myNumberArray = new int[] {1, 3, 16, 12, 234, 678, 76, 92, 887, 45, 67} ;
+
+    //DISPLAY ARRAY
+public static void displayArray(){
+    for (int number : myNumberArray ) {
+        System.out.print(number + " ");
+    }
+}
 }
