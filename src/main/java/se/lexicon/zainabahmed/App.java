@@ -25,8 +25,11 @@ public class App
             System.out.println( "4. Copy array and print");
             Ex04CopyToArray2.copyArray(Ex04CopyToArray2.getMyFirstArray(), Ex04CopyToArray2.getMySecondArray());
         System.out.println( "*=========*" );
-        System.out.println( "5. ");
-//        System.out.println( "*=========*" );
+            System.out.println( "5. 2D String array ");
+            Ex05TwoDimensionalArray.displayCapitals();
+//            Ex05TwoDimensionalArray.populateCities();
+//            Ex05TwoDimensionalArray.numberGrid();
+        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
