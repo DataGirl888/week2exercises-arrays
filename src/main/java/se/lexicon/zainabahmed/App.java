@@ -21,10 +21,11 @@ public class App
         System.out.println( "*=========*" );
             System.out.println( "3. Sort string array of cities ");
             Ex03SortStringArray.sortCities();
+        System.out.println( "\n*=========*" );
+            System.out.println( "4. Copy array and print");
+            Ex04CopyToArray2.copyArray(Ex04CopyToArray2.getMyFirstArray(), Ex04CopyToArray2.getMySecondArray());
         System.out.println( "*=========*" );
-//        System.out.println( ". ");
-//        System.out.println( "*=========*" );
-//        System.out.println( "3. ");
+        System.out.println( "5. ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
 //        System.out.println( "*=========*" );
