@@ -1,0 +1,7 @@
+package se.lexicon.zainabahmed;
+  /*4. Write a program which will copy the elements of one array into another
+          array.
+          Expected output: Elements from first array: 1 15 20
+          Elements from second array: 1 15 20*/
+public class Ex04CopyToArray2 {
+}
