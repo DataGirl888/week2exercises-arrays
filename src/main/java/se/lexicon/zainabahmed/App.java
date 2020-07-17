@@ -19,9 +19,10 @@ public class App
             System.out.println( "2. Get index of number");
             Ex02IndexOf.indexOf();
         System.out.println( "*=========*" );
-            System.out.println( "3. ");
-//        System.out.println( "*=========*" );
-//        System.out.println( "3. ");
+            System.out.println( "3. Sort string array of cities ");
+            Ex03SortStringArray.sortCities();
+        System.out.println( "*=========*" );
+//        System.out.println( ". ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
 //        System.out.println( "*=========*" );

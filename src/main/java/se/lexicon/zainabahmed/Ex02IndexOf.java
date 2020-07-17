@@ -10,7 +10,7 @@ import java.util.Random;
  */
 public class Ex02IndexOf {
     //VARIABLES
-    static int[] myNumbersArray = new int[]{23, 45, 67, 43, 789, 56, 43, 23, 19, 845};
+    private static int[] myNumbersArray = new int[]{23, 45, 67, 43, 789, 56, 43, 23, 19, 845};
 
     //METHOD
     //return index

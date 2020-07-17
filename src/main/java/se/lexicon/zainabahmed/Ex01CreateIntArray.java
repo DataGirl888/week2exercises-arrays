@@ -9,7 +9,7 @@ import java.lang.*;
  */
 public class Ex01CreateIntArray {
     // INSTANCE VARIABLES
-    static int[] myNumberArray = new int[] {1, 3, 16, 12, 234, 678, 76, 92, 887, 45, 67} ;
+    private static int[] myNumberArray = new int[] {1, 3, 16, 12, 234, 678, 76, 92, 887, 45, 67} ;
 
     //DISPLAY ARRAY
 public static void displayArray(){
