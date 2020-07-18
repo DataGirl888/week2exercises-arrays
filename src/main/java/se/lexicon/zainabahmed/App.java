@@ -41,7 +41,8 @@ public class App
             System.out.println( "10. Multiplication Table");
             Ex10MultiplicationTablesMultiDimensionalArray.multiplyNumbers();
         System.out.println( "*=========*" );
-            System.out.println( "11. Reversed Array ");
+            System.out.println( "11. Reversing input to Array ");
+            Ex11RepeatReverseArray.reverseInput(Ex11RepeatReverseArray.addInputToArray());
         System.out.println( "*=========*" );
 //        System.out.println( "12. ");
 //        System.out.println( "*=========*" );
