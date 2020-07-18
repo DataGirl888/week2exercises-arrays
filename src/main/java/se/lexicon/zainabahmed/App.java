@@ -43,9 +43,10 @@ public class App
         System.out.println( "*=========*" );
             System.out.println( "11. Reversing input to Array ");
             Ex11RepeatReverseArray.reverseInput(Ex11RepeatReverseArray.addInputToArray());
-        System.out.println( "*=========*" );
-//        System.out.println( "12. ");
-//        System.out.println( "*=========*" );
+        System.out.println( "\n*=========*" );
+        System.out.println( "12. Diagonals in an array");
+            Ex12DiagonalArray.diagonalValues(Ex12DiagonalArray.getNumberGrid());
+        System.out.println( "\n*=========*" );
 //        System.out.println( "13. ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
