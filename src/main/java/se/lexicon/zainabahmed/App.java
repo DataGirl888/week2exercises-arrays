@@ -9,7 +9,7 @@ public class App
     {
 
         System.out.println( "ARRAY EXERCISES" );
-            System.out.println( "1. Create integer array " );
+      /*      System.out.println( "1. Create integer array " );
             Ex01CreateIntArray.displayArray();
         System.out.println( "\n*=========*" );
             System.out.println( "2. Get index of number");
@@ -46,9 +46,10 @@ public class App
         System.out.println( "\n*=========*" );
         System.out.println( "12. Diagonals in an array");
             Ex12DiagonalArray.diagonalValues(Ex12DiagonalArray.getNumberGrid());
+        System.out.println( "\n*=========*" );*/
+            System.out.println( "13.Random array rearranged  ");
+            Ex13RandomSizeCopyArray.fillRandomArray(Ex13RandomSizeCopyArray.getRandomArray());
         System.out.println( "\n*=========*" );
-//        System.out.println( "13. ");
-//        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
 //        System.out.println( "*=========*" );
 //        System.out.println( "3. ");
